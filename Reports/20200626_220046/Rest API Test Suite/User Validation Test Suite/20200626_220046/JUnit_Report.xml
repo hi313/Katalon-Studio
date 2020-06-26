@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Validation Test Suite" time="3.547" tests="1" failures="0" errors="0">
+   <testsuite name="User Validation Test Suite" tests="1" failures="0" errors="0" time="3.547" timestamp="2020-06-26 22:00:48" hostname="HiralHarnal - DE-GN-30721.mshome.net" id="Test Suites/Rest API Test Suite/User Validation Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hiralharnal\\git\\Katalon-Studio\\Reports\\20200626_220046\\Rest API Test Suite\\User Validation Test Suite\\20200626_220046"/>
+         <property name="logFiles" value="C:\\Users\\hiralharnal\\git\\Katalon-Studio\\Reports\\20200626_220046\\Rest API Test Suite\\User Validation Test Suite\\20200626_220046\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HiralHarnal - DE-GN-30721.mshome.net"/>
+         <property name="hostAddress" value="172.17.160.193"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.10.1"/>
+      </properties>
+      <testcase name="Test Cases/Rest API Test Case/Validate User Details" time="3.043" classname="Test Cases/Rest API Test Case/Validate User Details" status="PASSED">
+         <system-out><![CDATA[2020-06-26 22:00:49 - [TEST_CASE][PASSED] - Test Cases/Rest API Test Case/Validate User Details: Test Cases/Rest API Test Case/Validate User Details
+
+2020-06-26 22:00:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Rest API Object repository/Get User details")): Send request successfully
+
+2020-06-26 22:00:52 - [MESSAGE][INFO] - HAR: C:\Users\hiralharnal\git\Katalon-Studio\Reports\20200626_220046\Rest API Test Suite\User Validation Test Suite\20200626_220046\requests\main\0.har
+
+2020-06-26 22:00:52 - [MESSAGE][PASSED] - Send request successfully
+
+2020-06-26 22:00:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-06-26 22:00:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-06-26 22:00:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.first_name", "Janet"): Verify element property value successfully
+
+2020-06-26 22:00:52 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-26 22:00:48 - [TEST_SUITE][PASSED] - User Validation Test Suite: Test Cases/Rest API Test Case/Validate User Details]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
